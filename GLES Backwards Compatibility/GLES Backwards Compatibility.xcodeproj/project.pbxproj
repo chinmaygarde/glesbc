@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA7EEB9614BED974003504C8 /* Attribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEABF14BEC98E003504C8 /* Attribute.cpp */; };
+		EA7EEB9714BED974003504C8 /* Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAC014BEC98E003504C8 /* Attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEB9814BED974003504C8 /* MatrixStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAC114BEC98E003504C8 /* MatrixStack.cpp */; };
+		EA7EEB9914BED974003504C8 /* MatrixStack.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAC214BEC98E003504C8 /* MatrixStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEB9A14BED974003504C8 /* OpenGLES20Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAC314BEC98E003504C8 /* OpenGLES20Context.cpp */; };
+		EA7EEB9B14BED974003504C8 /* OpenGLES20Context.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAC414BEC98E003504C8 /* OpenGLES20Context.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEB9C14BED974003504C8 /* OpenGLES20Implementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAC514BEC98E003504C8 /* OpenGLES20Implementation.cpp */; };
+		EA7EEB9D14BED974003504C8 /* OpenGLES20Implementation.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAC614BEC98E003504C8 /* OpenGLES20Implementation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEB9E14BED974003504C8 /* OpenGLESState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAC714BEC98E003504C8 /* OpenGLESState.cpp */; };
+		EA7EEB9F14BED974003504C8 /* OpenGLESState.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAC814BEC98E003504C8 /* OpenGLESState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBA014BED974003504C8 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAC914BEC98E003504C8 /* Shader.cpp */; };
+		EA7EEBA114BED974003504C8 /* Shader.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEACA14BEC98E003504C8 /* Shader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBA214BED974003504C8 /* ShaderFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEACB14BEC98E003504C8 /* ShaderFile.cpp */; };
+		EA7EEBA314BED974003504C8 /* ShaderFile.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEACC14BEC98E003504C8 /* ShaderFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBA414BED974003504C8 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEACD14BEC98E003504C8 /* ShaderProgram.cpp */; };
+		EA7EEBA514BED974003504C8 /* ShaderProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEACE14BEC98E003504C8 /* ShaderProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBA614BED974003504C8 /* ShaderSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAE514BEC98E003504C8 /* ShaderSource.cpp */; };
+		EA7EEBA714BED974003504C8 /* ShaderSource.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAE614BEC98E003504C8 /* ShaderSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBA814BED974003504C8 /* Uniform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAE714BEC98E003504C8 /* Uniform.cpp */; };
+		EA7EEBA914BED974003504C8 /* Uniform.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAE814BEC98E003504C8 /* Uniform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBAA14BED974003504C8 /* OpenGLESConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAE914BEC98E003504C8 /* OpenGLESConfig.cpp */; };
+		EA7EEBAB14BED974003504C8 /* OpenGLESConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAEA14BEC98E003504C8 /* OpenGLESConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBAC14BED974003504C8 /* OpenGLESContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAEB14BEC98E003504C8 /* OpenGLESContext.cpp */; };
+		EA7EEBAD14BED974003504C8 /* OpenGLESContext.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAEC14BEC98E003504C8 /* OpenGLESContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBAE14BED974003504C8 /* OpenGLESFile.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAED14BEC98E003504C8 /* OpenGLESFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBAF14BED974003504C8 /* OpenGLESFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAEE14BEC98E003504C8 /* OpenGLESFile.mm */; };
+		EA7EEBB014BED974003504C8 /* OpenGLESImplementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAEF14BEC98E003504C8 /* OpenGLESImplementation.cpp */; };
+		EA7EEBB114BED974003504C8 /* OpenGLESImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAF014BEC98E003504C8 /* OpenGLESImplementation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBB214BED974003504C8 /* OpenGLESMath.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAF114BEC98E003504C8 /* OpenGLESMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBB314BED974003504C8 /* OpenGLESString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAF214BEC98E003504C8 /* OpenGLESString.cpp */; };
+		EA7EEBB414BED974003504C8 /* OpenGLESString.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAF314BEC98E003504C8 /* OpenGLESString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBB514BED974003504C8 /* OpenGLESUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEAF414BEC98E003504C8 /* OpenGLESUtil.cpp */; };
+		EA7EEBB614BED974003504C8 /* OpenGLESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEAF514BEC98E003504C8 /* OpenGLESUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7EEBBA14BEDA99003504C8 /* alphaTest.frag in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAD014BEC98E003504C8 /* alphaTest.frag */; };
+		EA7EEBBB14BEDA99003504C8 /* clipPlane.frag in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAD114BEC98E003504C8 /* clipPlane.frag */; };
+		EA7EEBBC14BEDA99003504C8 /* clipPlane.vert in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAD214BEC98E003504C8 /* clipPlane.vert */; };
+		EA7EEBBD14BEDA99003504C8 /* fog.glsl in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAD314BEC98E003504C8 /* fog.glsl */; };
+		EA7EEBBE14BEDA99003504C8 /* lighting.frag in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAD414BEC98E003504C8 /* lighting.frag */; };
+		EA7EEBBF14BEDA99003504C8 /* lighting.vert in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAD514BEC98E003504C8 /* lighting.vert */; };
+		EA7EEBC014BEDA99003504C8 /* lightingPerFragment.frag in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAD614BEC98E003504C8 /* lightingPerFragment.frag */; };
+		EA7EEBC114BEDA99003504C8 /* lightingPerFragment.vert in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAD714BEC98E003504C8 /* lightingPerFragment.vert */; };
+		EA7EEBC214BEDA99003504C8 /* lightingPerVertex.vert in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAD814BEC98E003504C8 /* lightingPerVertex.vert */; };
+		EA7EEBC314BEDA99003504C8 /* main.frag in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAD914BEC98E003504C8 /* main.frag */; };
+		EA7EEBC414BEDA99003504C8 /* main.vert in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEADA14BEC98E003504C8 /* main.vert */; };
+		EA7EEBC514BEDA99003504C8 /* postprocess.frag in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEADB14BEC98E003504C8 /* postprocess.frag */; };
+		EA7EEBC614BEDA99003504C8 /* postprocess.vert in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEADC14BEC98E003504C8 /* postprocess.vert */; };
+		EA7EEBC714BEDA99003504C8 /* texture.frag in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEADD14BEC98E003504C8 /* texture.frag */; };
+		EA7EEBC814BEDA99003504C8 /* texture.vert in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEADE14BEC98E003504C8 /* texture.vert */; };
+		EA7EEBC914BEDA99003504C8 /* texture0.frag in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEADF14BEC98E003504C8 /* texture0.frag */; };
+		EA7EEBCA14BEDA99003504C8 /* texture0.vert in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAE014BEC98E003504C8 /* texture0.vert */; };
+		EA7EEBCB14BEDA99003504C8 /* texture1.frag in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAE114BEC98E003504C8 /* texture1.frag */; };
+		EA7EEBCC14BEDA99003504C8 /* texture1.vert in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAE214BEC98E003504C8 /* texture1.vert */; };
+		EA7EEBCD14BEDA99003504C8 /* texture2.frag in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAE314BEC98E003504C8 /* texture2.frag */; };
+		EA7EEBCE14BEDA99003504C8 /* texture2.vert in Resources */ = {isa = PBXBuildFile; fileRef = EA7EEAE414BEC98E003504C8 /* texture2.vert */; };
+		EAB2A37E14BEEE6000C23B11 /* GLESBC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7EEB8C14BED8D3003504C8 /* GLESBC.cpp */; };
+		EAB2A37F14BEEE6C00C23B11 /* GLESBC.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EEB8B14BED8D3003504C8 /* GLESBC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAB2A38114BEF39B00C23B11 /* GLESBC_Shims.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB2A38014BEF39A00C23B11 /* GLESBC_Shims.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA7EEABA14BEC98E003504C8 /* OpenGLES11Context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLES11Context.cpp; sourceTree = "<group>"; };
+		EA7EEABB14BEC98E003504C8 /* OpenGLES11Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES11Context.h; sourceTree = "<group>"; };
+		EA7EEABC14BEC98E003504C8 /* OpenGLES11Implementation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLES11Implementation.cpp; sourceTree = "<group>"; };
+		EA7EEABD14BEC98E003504C8 /* OpenGLES11Implementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES11Implementation.h; sourceTree = "<group>"; };
+		EA7EEABF14BEC98E003504C8 /* Attribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Attribute.cpp; sourceTree = "<group>"; };
+		EA7EEAC014BEC98E003504C8 /* Attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attribute.h; sourceTree = "<group>"; };
+		EA7EEAC114BEC98E003504C8 /* MatrixStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixStack.cpp; sourceTree = "<group>"; };
+		EA7EEAC214BEC98E003504C8 /* MatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixStack.h; sourceTree = "<group>"; };
+		EA7EEAC314BEC98E003504C8 /* OpenGLES20Context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLES20Context.cpp; sourceTree = "<group>"; };
+		EA7EEAC414BEC98E003504C8 /* OpenGLES20Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES20Context.h; sourceTree = "<group>"; };
+		EA7EEAC514BEC98E003504C8 /* OpenGLES20Implementation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLES20Implementation.cpp; sourceTree = "<group>"; };
+		EA7EEAC614BEC98E003504C8 /* OpenGLES20Implementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES20Implementation.h; sourceTree = "<group>"; };
+		EA7EEAC714BEC98E003504C8 /* OpenGLESState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLESState.cpp; sourceTree = "<group>"; };
+		EA7EEAC814BEC98E003504C8 /* OpenGLESState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESState.h; sourceTree = "<group>"; };
+		EA7EEAC914BEC98E003504C8 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		EA7EEACA14BEC98E003504C8 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		EA7EEACB14BEC98E003504C8 /* ShaderFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderFile.cpp; sourceTree = "<group>"; };
+		EA7EEACC14BEC98E003504C8 /* ShaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderFile.h; sourceTree = "<group>"; };
+		EA7EEACD14BEC98E003504C8 /* ShaderProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderProgram.cpp; sourceTree = "<group>"; };
+		EA7EEACE14BEC98E003504C8 /* ShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProgram.h; sourceTree = "<group>"; };
+		EA7EEAD014BEC98E003504C8 /* alphaTest.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = alphaTest.frag; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/alphaTest.frag"; sourceTree = "<group>"; };
+		EA7EEAD114BEC98E003504C8 /* clipPlane.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = clipPlane.frag; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/clipPlane.frag"; sourceTree = "<group>"; };
+		EA7EEAD214BEC98E003504C8 /* clipPlane.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = clipPlane.vert; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/clipPlane.vert"; sourceTree = "<group>"; };
+		EA7EEAD314BEC98E003504C8 /* fog.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fog.glsl; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/fog.glsl"; sourceTree = "<group>"; };
+		EA7EEAD414BEC98E003504C8 /* lighting.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = lighting.frag; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/lighting.frag"; sourceTree = "<group>"; };
+		EA7EEAD514BEC98E003504C8 /* lighting.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = lighting.vert; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/lighting.vert"; sourceTree = "<group>"; };
+		EA7EEAD614BEC98E003504C8 /* lightingPerFragment.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = lightingPerFragment.frag; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/lightingPerFragment.frag"; sourceTree = "<group>"; };
+		EA7EEAD714BEC98E003504C8 /* lightingPerFragment.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = lightingPerFragment.vert; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/lightingPerFragment.vert"; sourceTree = "<group>"; };
+		EA7EEAD814BEC98E003504C8 /* lightingPerVertex.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = lightingPerVertex.vert; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/lightingPerVertex.vert"; sourceTree = "<group>"; };
+		EA7EEAD914BEC98E003504C8 /* main.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = main.frag; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/main.frag"; sourceTree = "<group>"; };
+		EA7EEADA14BEC98E003504C8 /* main.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = main.vert; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/main.vert"; sourceTree = "<group>"; };
+		EA7EEADB14BEC98E003504C8 /* postprocess.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = postprocess.frag; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/postprocess.frag"; sourceTree = "<group>"; };
+		EA7EEADC14BEC98E003504C8 /* postprocess.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = postprocess.vert; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/postprocess.vert"; sourceTree = "<group>"; };
+		EA7EEADD14BEC98E003504C8 /* texture.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = texture.frag; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/texture.frag"; sourceTree = "<group>"; };
+		EA7EEADE14BEC98E003504C8 /* texture.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = texture.vert; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/texture.vert"; sourceTree = "<group>"; };
+		EA7EEADF14BEC98E003504C8 /* texture0.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = texture0.frag; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/texture0.frag"; sourceTree = "<group>"; };
+		EA7EEAE014BEC98E003504C8 /* texture0.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = texture0.vert; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/texture0.vert"; sourceTree = "<group>"; };
+		EA7EEAE114BEC98E003504C8 /* texture1.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = texture1.frag; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/texture1.frag"; sourceTree = "<group>"; };
+		EA7EEAE214BEC98E003504C8 /* texture1.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = texture1.vert; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/texture1.vert"; sourceTree = "<group>"; };
+		EA7EEAE314BEC98E003504C8 /* texture2.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = texture2.frag; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/texture2.frag"; sourceTree = "<group>"; };
+		EA7EEAE414BEC98E003504C8 /* texture2.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = texture2.vert; path = "GLES Backwards Compatibility/Sources/OpenGLES20/shaders/texture2.vert"; sourceTree = "<group>"; };
+		EA7EEAE514BEC98E003504C8 /* ShaderSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderSource.cpp; sourceTree = "<group>"; };
+		EA7EEAE614BEC98E003504C8 /* ShaderSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderSource.h; sourceTree = "<group>"; };
+		EA7EEAE714BEC98E003504C8 /* Uniform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Uniform.cpp; sourceTree = "<group>"; };
+		EA7EEAE814BEC98E003504C8 /* Uniform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uniform.h; sourceTree = "<group>"; };
+		EA7EEAE914BEC98E003504C8 /* OpenGLESConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLESConfig.cpp; sourceTree = "<group>"; };
+		EA7EEAEA14BEC98E003504C8 /* OpenGLESConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESConfig.h; sourceTree = "<group>"; };
+		EA7EEAEB14BEC98E003504C8 /* OpenGLESContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLESContext.cpp; sourceTree = "<group>"; };
+		EA7EEAEC14BEC98E003504C8 /* OpenGLESContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESContext.h; sourceTree = "<group>"; };
+		EA7EEAED14BEC98E003504C8 /* OpenGLESFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESFile.h; sourceTree = "<group>"; };
+		EA7EEAEE14BEC98E003504C8 /* OpenGLESFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLESFile.mm; sourceTree = "<group>"; };
+		EA7EEAEF14BEC98E003504C8 /* OpenGLESImplementation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLESImplementation.cpp; sourceTree = "<group>"; };
+		EA7EEAF014BEC98E003504C8 /* OpenGLESImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESImplementation.h; sourceTree = "<group>"; };
+		EA7EEAF114BEC98E003504C8 /* OpenGLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESMath.h; sourceTree = "<group>"; };
+		EA7EEAF214BEC98E003504C8 /* OpenGLESString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLESString.cpp; sourceTree = "<group>"; };
+		EA7EEAF314BEC98E003504C8 /* OpenGLESString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESString.h; sourceTree = "<group>"; };
+		EA7EEAF414BEC98E003504C8 /* OpenGLESUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLESUtil.cpp; sourceTree = "<group>"; };
+		EA7EEAF514BEC98E003504C8 /* OpenGLESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLESUtil.h; sourceTree = "<group>"; };
+		EA7EEB8614BED8D3003504C8 /* libGLESBC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGLESBC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7EEB8A14BED8D3003504C8 /* GLESBC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLESBC-Prefix.pch"; sourceTree = "<group>"; };
+		EA7EEB8B14BED8D3003504C8 /* GLESBC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLESBC.h; sourceTree = "<group>"; };
+		EA7EEB8C14BED8D3003504C8 /* GLESBC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GLESBC.cpp; sourceTree = "<group>"; };
+		EAB2A38014BEF39A00C23B11 /* GLESBC_Shims.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESBC_Shims.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA7EEB8314BED8D3003504C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA7EEA9D14BEC82D003504C8 = {
+			isa = PBXGroup;
+			children = (
+				EA7EEB2F14BEC9B9003504C8 /* Shaders */,
+				EA7EEAB814BEC98E003504C8 /* Sources */,
+				EA7EEB8814BED8D3003504C8 /* GLESBC */,
+				EA7EEAAA14BEC82D003504C8 /* Frameworks */,
+				EA7EEAA914BEC82D003504C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA7EEAA914BEC82D003504C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EEB8614BED8D3003504C8 /* libGLESBC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA7EEAAA14BEC82D003504C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA7EEAB814BEC98E003504C8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EEAB914BEC98E003504C8 /* OpenGLES11 */,
+				EA7EEABE14BEC98E003504C8 /* OpenGLES20 */,
+				EA7EEAE914BEC98E003504C8 /* OpenGLESConfig.cpp */,
+				EA7EEAEA14BEC98E003504C8 /* OpenGLESConfig.h */,
+				EA7EEAEB14BEC98E003504C8 /* OpenGLESContext.cpp */,
+				EA7EEAEC14BEC98E003504C8 /* OpenGLESContext.h */,
+				EA7EEAED14BEC98E003504C8 /* OpenGLESFile.h */,
+				EA7EEAEE14BEC98E003504C8 /* OpenGLESFile.mm */,
+				EA7EEAEF14BEC98E003504C8 /* OpenGLESImplementation.cpp */,
+				EA7EEAF014BEC98E003504C8 /* OpenGLESImplementation.h */,
+				EA7EEAF114BEC98E003504C8 /* OpenGLESMath.h */,
+				EA7EEAF214BEC98E003504C8 /* OpenGLESString.cpp */,
+				EA7EEAF314BEC98E003504C8 /* OpenGLESString.h */,
+				EA7EEAF414BEC98E003504C8 /* OpenGLESUtil.cpp */,
+				EA7EEAF514BEC98E003504C8 /* OpenGLESUtil.h */,
+			);
+			name = Sources;
+			path = "GLES Backwards Compatibility/Sources";
+			sourceTree = "<group>";
+		};
+		EA7EEAB914BEC98E003504C8 /* OpenGLES11 */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EEABA14BEC98E003504C8 /* OpenGLES11Context.cpp */,
+				EA7EEABB14BEC98E003504C8 /* OpenGLES11Context.h */,
+				EA7EEABC14BEC98E003504C8 /* OpenGLES11Implementation.cpp */,
+				EA7EEABD14BEC98E003504C8 /* OpenGLES11Implementation.h */,
+			);
+			path = OpenGLES11;
+			sourceTree = "<group>";
+		};
+		EA7EEABE14BEC98E003504C8 /* OpenGLES20 */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EEABF14BEC98E003504C8 /* Attribute.cpp */,
+				EA7EEAC014BEC98E003504C8 /* Attribute.h */,
+				EA7EEAC114BEC98E003504C8 /* MatrixStack.cpp */,
+				EA7EEAC214BEC98E003504C8 /* MatrixStack.h */,
+				EA7EEAC314BEC98E003504C8 /* OpenGLES20Context.cpp */,
+				EA7EEAC414BEC98E003504C8 /* OpenGLES20Context.h */,
+				EA7EEAC514BEC98E003504C8 /* OpenGLES20Implementation.cpp */,
+				EA7EEAC614BEC98E003504C8 /* OpenGLES20Implementation.h */,
+				EA7EEAC714BEC98E003504C8 /* OpenGLESState.cpp */,
+				EA7EEAC814BEC98E003504C8 /* OpenGLESState.h */,
+				EA7EEAC914BEC98E003504C8 /* Shader.cpp */,
+				EA7EEACA14BEC98E003504C8 /* Shader.h */,
+				EA7EEACB14BEC98E003504C8 /* ShaderFile.cpp */,
+				EA7EEACC14BEC98E003504C8 /* ShaderFile.h */,
+				EA7EEACD14BEC98E003504C8 /* ShaderProgram.cpp */,
+				EA7EEACE14BEC98E003504C8 /* ShaderProgram.h */,
+				EA7EEAE514BEC98E003504C8 /* ShaderSource.cpp */,
+				EA7EEAE614BEC98E003504C8 /* ShaderSource.h */,
+				EA7EEAE714BEC98E003504C8 /* Uniform.cpp */,
+				EA7EEAE814BEC98E003504C8 /* Uniform.h */,
+			);
+			path = OpenGLES20;
+			sourceTree = "<group>";
+		};
+		EA7EEB2F14BEC9B9003504C8 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EEAD014BEC98E003504C8 /* alphaTest.frag */,
+				EA7EEAD114BEC98E003504C8 /* clipPlane.frag */,
+				EA7EEAD214BEC98E003504C8 /* clipPlane.vert */,
+				EA7EEAD314BEC98E003504C8 /* fog.glsl */,
+				EA7EEAD414BEC98E003504C8 /* lighting.frag */,
+				EA7EEAD514BEC98E003504C8 /* lighting.vert */,
+				EA7EEAD614BEC98E003504C8 /* lightingPerFragment.frag */,
+				EA7EEAD714BEC98E003504C8 /* lightingPerFragment.vert */,
+				EA7EEAD814BEC98E003504C8 /* lightingPerVertex.vert */,
+				EA7EEAD914BEC98E003504C8 /* main.frag */,
+				EA7EEADA14BEC98E003504C8 /* main.vert */,
+				EA7EEADB14BEC98E003504C8 /* postprocess.frag */,
+				EA7EEADC14BEC98E003504C8 /* postprocess.vert */,
+				EA7EEADD14BEC98E003504C8 /* texture.frag */,
+				EA7EEADE14BEC98E003504C8 /* texture.vert */,
+				EA7EEADF14BEC98E003504C8 /* texture0.frag */,
+				EA7EEAE014BEC98E003504C8 /* texture0.vert */,
+				EA7EEAE114BEC98E003504C8 /* texture1.frag */,
+				EA7EEAE214BEC98E003504C8 /* texture1.vert */,
+				EA7EEAE314BEC98E003504C8 /* texture2.frag */,
+				EA7EEAE414BEC98E003504C8 /* texture2.vert */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		EA7EEB8814BED8D3003504C8 /* GLESBC */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EEB8B14BED8D3003504C8 /* GLESBC.h */,
+				EA7EEB8C14BED8D3003504C8 /* GLESBC.cpp */,
+				EA7EEB8914BED8D3003504C8 /* Supporting Files */,
+				EAB2A38014BEF39A00C23B11 /* GLESBC_Shims.h */,
+			);
+			path = GLESBC;
+			sourceTree = "<group>";
+		};
+		EA7EEB8914BED8D3003504C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EEB8A14BED8D3003504C8 /* GLESBC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA7EEB8414BED8D3003504C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7EEB9714BED974003504C8 /* Attribute.h in Headers */,
+				EA7EEB9914BED974003504C8 /* MatrixStack.h in Headers */,
+				EA7EEB9B14BED974003504C8 /* OpenGLES20Context.h in Headers */,
+				EA7EEB9D14BED974003504C8 /* OpenGLES20Implementation.h in Headers */,
+				EA7EEB9F14BED974003504C8 /* OpenGLESState.h in Headers */,
+				EA7EEBA114BED974003504C8 /* Shader.h in Headers */,
+				EA7EEBA314BED974003504C8 /* ShaderFile.h in Headers */,
+				EA7EEBA514BED974003504C8 /* ShaderProgram.h in Headers */,
+				EA7EEBA714BED974003504C8 /* ShaderSource.h in Headers */,
+				EA7EEBA914BED974003504C8 /* Uniform.h in Headers */,
+				EA7EEBAB14BED974003504C8 /* OpenGLESConfig.h in Headers */,
+				EA7EEBAD14BED974003504C8 /* OpenGLESContext.h in Headers */,
+				EA7EEBAE14BED974003504C8 /* OpenGLESFile.h in Headers */,
+				EA7EEBB114BED974003504C8 /* OpenGLESImplementation.h in Headers */,
+				EA7EEBB214BED974003504C8 /* OpenGLESMath.h in Headers */,
+				EA7EEBB414BED974003504C8 /* OpenGLESString.h in Headers */,
+				EA7EEBB614BED974003504C8 /* OpenGLESUtil.h in Headers */,
+				EAB2A37F14BEEE6C00C23B11 /* GLESBC.h in Headers */,
+				EAB2A38114BEF39B00C23B11 /* GLESBC_Shims.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA7EEB8514BED8D3003504C8 /* GLESBC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7EEB8E14BED8D3003504C8 /* Build configuration list for PBXNativeTarget "GLESBC" */;
+			buildPhases = (
+				EA7EEB8214BED8D3003504C8 /* Sources */,
+				EA7EEB8314BED8D3003504C8 /* Frameworks */,
+				EA7EEB8414BED8D3003504C8 /* Headers */,
+				EA7EEBB914BEDA91003504C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLESBC;
+			productName = GLESBC;
+			productReference = EA7EEB8614BED8D3003504C8 /* libGLESBC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA7EEA9F14BEC82D003504C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Carnegie Mellon University";
+			};
+			buildConfigurationList = EA7EEAA214BEC82D003504C8 /* Build configuration list for PBXProject "GLES Backwards Compatibility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA7EEA9D14BEC82D003504C8;
+			productRefGroup = EA7EEAA914BEC82D003504C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA7EEB8514BED8D3003504C8 /* GLESBC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA7EEBB914BEDA91003504C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7EEBBA14BEDA99003504C8 /* alphaTest.frag in Resources */,
+				EA7EEBBB14BEDA99003504C8 /* clipPlane.frag in Resources */,
+				EA7EEBBC14BEDA99003504C8 /* clipPlane.vert in Resources */,
+				EA7EEBBD14BEDA99003504C8 /* fog.glsl in Resources */,
+				EA7EEBBE14BEDA99003504C8 /* lighting.frag in Resources */,
+				EA7EEBBF14BEDA99003504C8 /* lighting.vert in Resources */,
+				EA7EEBC014BEDA99003504C8 /* lightingPerFragment.frag in Resources */,
+				EA7EEBC114BEDA99003504C8 /* lightingPerFragment.vert in Resources */,
+				EA7EEBC214BEDA99003504C8 /* lightingPerVertex.vert in Resources */,
+				EA7EEBC314BEDA99003504C8 /* main.frag in Resources */,
+				EA7EEBC414BEDA99003504C8 /* main.vert in Resources */,
+				EA7EEBC514BEDA99003504C8 /* postprocess.frag in Resources */,
+				EA7EEBC614BEDA99003504C8 /* postprocess.vert in Resources */,
+				EA7EEBC714BEDA99003504C8 /* texture.frag in Resources */,
+				EA7EEBC814BEDA99003504C8 /* texture.vert in Resources */,
+				EA7EEBC914BEDA99003504C8 /* texture0.frag in Resources */,
+				EA7EEBCA14BEDA99003504C8 /* texture0.vert in Resources */,
+				EA7EEBCB14BEDA99003504C8 /* texture1.frag in Resources */,
+				EA7EEBCC14BEDA99003504C8 /* texture1.vert in Resources */,
+				EA7EEBCD14BEDA99003504C8 /* texture2.frag in Resources */,
+				EA7EEBCE14BEDA99003504C8 /* texture2.vert in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA7EEB8214BED8D3003504C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7EEB9614BED974003504C8 /* Attribute.cpp in Sources */,
+				EA7EEB9814BED974003504C8 /* MatrixStack.cpp in Sources */,
+				EA7EEB9A14BED974003504C8 /* OpenGLES20Context.cpp in Sources */,
+				EA7EEB9C14BED974003504C8 /* OpenGLES20Implementation.cpp in Sources */,
+				EA7EEB9E14BED974003504C8 /* OpenGLESState.cpp in Sources */,
+				EA7EEBA014BED974003504C8 /* Shader.cpp in Sources */,
+				EA7EEBA214BED974003504C8 /* ShaderFile.cpp in Sources */,
+				EA7EEBA414BED974003504C8 /* ShaderProgram.cpp in Sources */,
+				EA7EEBA614BED974003504C8 /* ShaderSource.cpp in Sources */,
+				EA7EEBA814BED974003504C8 /* Uniform.cpp in Sources */,
+				EA7EEBAA14BED974003504C8 /* OpenGLESConfig.cpp in Sources */,
+				EA7EEBAC14BED974003504C8 /* OpenGLESContext.cpp in Sources */,
+				EA7EEBAF14BED974003504C8 /* OpenGLESFile.mm in Sources */,
+				EA7EEBB014BED974003504C8 /* OpenGLESImplementation.cpp in Sources */,
+				EA7EEBB314BED974003504C8 /* OpenGLESString.cpp in Sources */,
+				EA7EEBB514BED974003504C8 /* OpenGLESUtil.cpp in Sources */,
+				EAB2A37E14BEEE6000C23B11 /* GLESBC.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA7EEAB314BEC82D003504C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA7EEAB414BEC82D003504C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA7EEB8F14BED8D3003504C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GLESBC.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLESBC/GLESBC-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = GLESBC;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EA7EEB9014BED8D3003504C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GLESBC.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLESBC/GLESBC-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = GLESBC;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA7EEAA214BEC82D003504C8 /* Build configuration list for PBXProject "GLES Backwards Compatibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7EEAB314BEC82D003504C8 /* Debug */,
+				EA7EEAB414BEC82D003504C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7EEB8E14BED8D3003504C8 /* Build configuration list for PBXNativeTarget "GLESBC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7EEB8F14BED8D3003504C8 /* Debug */,
+				EA7EEB9014BED8D3003504C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA7EEA9F14BEC82D003504C8 /* Project object */;
+}
